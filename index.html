@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tribute for Freddie Mercury">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/babel" async>
+      const projectName = "tribute-page";
+    </script>
+    <link rel="stylesheet" href="/css/style.css" />
+    
+    <title>Freddie Mercury Tribute</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1 id="title">Freddie Mercury</h1>
+        <p>One of the best singers that ever lived!</p>
+      </header>
+
+      <main id="main">
+        <figure id="img-div">
+          <img
+            id="image"
+            class="shadow"
+            src="/assets/images/freddie-mercury.webp"
+            alt="Freddie Mercury singing in a football stadium"
+            />
+            <figcaption id="img-caption">
+              Freddie Mercury singing in wembley stadium in 1986
+          </figcaption>
+        </figure>
+
+        <p id="tribute-info">
+          Freddie Mercury (born Farrokh Bulsara; 5 September 1946 – 24 November
+          1991) was a British singer, songwriter, record producer and lead
+          vocalist of the rock band Queen. Regarded as one of the greatest
+          singers in the history of rock music, he was known for his flamboyant
+          stage persona and four-octave vocal range. Mercury defied the
+          conventions of a rock frontman, with his highly theatrical style
+          influencing the artistic direction of Queen.
+        </p>
+          <a
+          id="tribute-link"
+          href="https://pt.wikipedia.org/wiki/Freddie_Mercury"
+          target="_blank"
+          >
+          See more about him
+          </a>
+      </main>
+
+      <footer>
+        <audio controls autoplay preload="metadata" loop>
+          <source
+            src="/assets/audios/we_are_the_champions.mp3"
+            type="audio/mpeg"
+            />
+          </audio>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
